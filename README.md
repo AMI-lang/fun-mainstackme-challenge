@@ -1,5 +1,5 @@
 # fun-mainstackme-challenge 
-This is a a personal challenge I did to work on my front-end skills! 
+This is a personal challenge I did to work on my front-end skills! 
 Any Feed-back on how I can improve the code is welcome.
 
 ## Approach
