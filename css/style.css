@@ -2,6 +2,7 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
+
 *,
 p,
 h1,
@@ -48,7 +49,8 @@ body {
   backdrop-filter: blur(10px);
 }
 .sticky-top {
-  top: 30px;
+  position: -webkit-sticky;
+  top: 30px !important;
 }
 .btn-text {
   font-size: 0.875rem;
@@ -109,7 +111,8 @@ input.inputUserName {
 .carousel-indicators {
   bottom: -14px !important;
   right: 60% !important;
-  margin-left: -10px !important;
+  margin-left: 10px !important;
+  justify-content: flex-start !important;
 }
 .carousel-text {
   min-height: 160px;
@@ -127,15 +130,22 @@ input.inputUserName {
   margin: 0 10px;
 }
 /* media queries */
-@media screen and (max-width: 47.9em) {
+@media screen and (max-width: 48em) {
   html {
     -webkit-overflow-scrolling: none;
     overflow-x: hidden;
-    overscroll-behavior: none;
+    overscroll-behavior-x: none;
   }
   .nav-link {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
+  }
+}
+@media (min-width: 47em) and (max-width: 62em) {
+  html {
+    -webkit-overflow-scrolling: none;
+    overflow-x: hidden;
+    overscroll-behavior-x: none;
   }
 }
 @media (min-width: 48em) {
