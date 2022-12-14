@@ -68,7 +68,9 @@ body {
 .hero {
   padding-top: 80px;
 }
-
+.fw-boldest {
+      font-weight: 800 !important;
+}
 .bg-border-orange,
 .bg-border-orange2 {
   border: 0.5px solid #eb502d;
@@ -111,7 +113,7 @@ input.inputUserName {
 .carousel-indicators {
   bottom: -14px !important;
   right: 60% !important;
-  margin-left: 10px !important;
+  margin-left: 20px !important;
   justify-content: flex-start !important;
 }
 .carousel-text {
@@ -128,6 +130,9 @@ input.inputUserName {
 }
 .svg-icons > svg {
   margin: 0 10px;
+}
+.text-justify {
+      text-align: justify !important;
 }
 /* media queries */
 @media screen and (max-width: 48em) {
